@@ -1,13 +1,20 @@
-import WelcomeMessage from'./components/WelcomeMessage'
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Header from "./Header";
+import MainContent from "./MainContent";
+import Footer from "./Footer";
+import WelcomeMessage from "./WelcomeMessage";
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
 
 function App() {
   return (
-    <WelcomeMessage />
-  )
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
