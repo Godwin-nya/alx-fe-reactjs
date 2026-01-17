@@ -1,0 +1,11 @@
+function MainContent() {
+  return (
+    <main style={{ backgroundColor: "lightgray", padding: "20px" }}>
+      <p style={{ color: "black" }}>
+        I love to visit New York, Paris, and Tokyo.
+      </p>
+    </main>
+  );
+}
+
+export default MainContent;
