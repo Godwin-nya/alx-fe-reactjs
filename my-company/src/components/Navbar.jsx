@@ -4,7 +4,8 @@ function Navbar() {
   const navStyle = {
     padding: "10px",
     display: "flex",
-    gap: "20px",
+    justifyContent: "space-around",
+
     backgroundColor: "#222",
   };
 
