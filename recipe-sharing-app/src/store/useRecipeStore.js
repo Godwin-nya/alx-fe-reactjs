@@ -3,6 +3,39 @@ import { create } from "zustand";
 const useRecipeStore = create((set) => ({
   recipes: [],
 
+   favorites: [], // array of recipe IDs
+
+  // Add recipe ID to favorites
+  addFavorite: (recipeId) =>
+    set((state) => ({
+      favorites: state.favorites.includes(recipeId)
+        ? state.favorites
+        : [...state.favorites, recipeId],
+    })),
+
+  // Remove recipe ID from favorites
+  removeFavorite: (recipeId) =>
+    set((state) => ({
+      favorites: state.favorites.filter((id) => id !== recipeId),
+    })),
+
+  // ===== RECOMMENDATIONS =====
+  recommendations: [],
+
+  // Mock recommendation logic:
+  // pick some non-favorite recipes randomly
+  generateRecommendations: () => {
+    const { recipes, favorites } = get();
+
+    const recommended = recipes.filter(
+      (recipe) =>
+        !favorites.includes(recipe.id) && Math.random() > 0.5
+    );
+
+    set({ recommendations: recommended });
+  },
+
+
   // ADD
   addRecipe: (newRecipe) =>
     set((state) => ({
@@ -23,5 +56,7 @@ const useRecipeStore = create((set) => ({
       ),
     })),
 }));
+  
+
 
 export default useRecipeStore;
