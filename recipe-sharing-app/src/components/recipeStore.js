@@ -19,6 +19,15 @@ const useRecipeStore = create((set) => ({
       favorites: state.favorites.filter((id) => id !== recipeId),
     })),
 
+  // ===== SEARCH + FILTER STATE =====
+  searchTerm: "",
+  // Update search term
+  setSearchTerm: (term) => {
+    set({ searchTerm: term });
+    // Automatically run filtering whenever the term changes
+    get().filterRecipes();
+  },
+
   // ===== RECOMMENDATIONS =====
   recommendations: [],
 
