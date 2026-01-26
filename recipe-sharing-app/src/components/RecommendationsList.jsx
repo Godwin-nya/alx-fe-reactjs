@@ -1,12 +1,10 @@
 import useRecipeStore from "../store/useRecipeStore";
 
 const RecommendationsList = () => {
-  const recommendations = useRecipeStore(
-    (state) => state.recommendations
-  );
+  const recommendations = useRecipeStore((state) => state.recommendations);
 
   const generateRecommendations = useRecipeStore(
-    (state) => state.generateRecommendations
+    (state) => state.generateRecommendations,
   );
 
   return (
@@ -17,9 +15,7 @@ const RecommendationsList = () => {
         Generate Recommendations
       </button>
 
-      {recommendations.length === 0 && (
-        <p>No recommendations yet.</p>
-      )}
+      {recommendations.length === 0 && <p>No recommendations yet.</p>}
 
       {recommendations.map((recipe) => (
         <div key={recipe.id}>

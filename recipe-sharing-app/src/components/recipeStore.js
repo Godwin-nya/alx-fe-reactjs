@@ -33,7 +33,7 @@ const useRecipeStore = create((set) => ({
     );
 
     set({ recommendations: recommended });
-  },}))
+  },
 
   // ADD
   addRecipe: (newRecipe) =>
