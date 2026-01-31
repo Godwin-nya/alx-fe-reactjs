@@ -1,6 +1,11 @@
+import Search from "../components/Search";
+
 function Home() {
     return ( 
-        <h2>Search GitHub Users Here</h2>
+       <div>
+         <h2>Search GitHub Users Here</h2>
+        <Search />
+       </div>
      );
 }
 
