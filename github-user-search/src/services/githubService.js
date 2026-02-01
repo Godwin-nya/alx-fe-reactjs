@@ -13,7 +13,7 @@ export const searchUsers = async ({
   if (location) q += ` location:${location}`;
   if (minRepos) q += ` repos:>=${minRepos}`;
 
-  const response = await githubApi.get("/search/users", {
+  const response = await githubApi.get("https://api.github.com/search/users?q", {
     params: {
       q,
       page,
