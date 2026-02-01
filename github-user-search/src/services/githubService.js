@@ -25,7 +25,7 @@ export const searchUsers = async ({
 };
 
 
-export const fetchUserDetails = async (username) => {
+export const fetchUserData = async (username) => {
   const res = await githubApi.get(`/users/${username}`);
   return res.data;
 };

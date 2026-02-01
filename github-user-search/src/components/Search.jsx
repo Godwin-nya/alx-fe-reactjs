@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { searchUsers, fetchUserDetails } from "../services/githubService";
+import { searchUsers, fetchUserData } from "../services/githubService";
 
 function Search() {
   const [query, setQuery] = useState("");
@@ -33,7 +33,7 @@ function Search() {
 
     const detailedUsers = await Promise.all(
       data.items.map((user) =>
-        fetchUserDetails(user.login)
+        fetchUserData(user.login)
       )
     );
 
@@ -92,44 +92,30 @@ function Search() {
 
       {/* Results */}
       <div className="mt-6 space-y-4">
-      {users.map((user) => (
-  <div
-    key={user.id}
-    className="flex items-center gap-4 p-4 border rounded-lg"
-  >
-    <img
-      src={user.avatar_url}
-      alt={user.login}
-      className="w-16 h-16 rounded-full"
-    />
+        {users.map((user) => (
+          <div
+            key={user.id}
+            className="flex items-center gap-4 p-4 border rounded"
+          >
+            <img
+              src={user.avatar_url}
+              alt={user.login}
+              className="w-16 h-16 rounded-full"
+            />
 
-    <div className="flex-1">
-      <h3 className="font-semibold text-lg">
-        {user.name || user.login}
-      </h3>
-
-      {user.location && (
-        <p className="text-sm text-gray-600">
-          📍 {user.location}
-        </p>
-      )}
-
-      <p className="text-sm text-gray-600">
-        Repos: {user.public_repos}
-      </p>
-
-      <a
-        href={user.html_url}
-        target="_blank"
-        rel="noreferrer"
-        className="text-blue-600 underline"
-      >
-        View Profile
-      </a>
-    </div>
-  </div>
-))}
-
+            <div className="flex-1">
+              <h3 className="font-semibold">{user.login}</h3>
+              <a
+                href={user.html_url}
+                target="_blank"
+                rel="noreferrer"
+                className="text-blue-600 underline"
+              >
+                View Profile
+              </a>
+            </div>
+          </div>
+        ))}
       </div>
 
       {/* Load More */}
