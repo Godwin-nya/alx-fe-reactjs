@@ -6,7 +6,7 @@ function UserProfile() {
 
       <h1 className="text-xl md:text-xl md:text-sm md:text-base text-blue-800 my-4">John Doe</h1>
 
-      <p className="text-gray-600 text-sm md:text-base">
+      <p className="text-gray-600 ms:text-sm md:text-base">
         Developer at Example Co. Loves to write code and explore new
         technologies.
       </p>
