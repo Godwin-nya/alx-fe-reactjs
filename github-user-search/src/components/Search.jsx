@@ -41,7 +41,7 @@ function Search() {
       pageNum === 1 ? detailedUsers : [...prev, ...detailedUsers]
     );
   } catch {
-    setError("Looks like we cant find any users");
+    setError("Looks like we cant find the user");
   } finally {
     setLoading(false);
   }
