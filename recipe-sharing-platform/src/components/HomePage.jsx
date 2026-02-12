@@ -19,7 +19,7 @@ const HomePage = () => {
         </h1>
 
         {/* Grid Layout */}
-        <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {recipes.map((recipe) => (
             <div
               key={recipe.id}
