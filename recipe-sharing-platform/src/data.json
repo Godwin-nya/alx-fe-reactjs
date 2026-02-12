@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+    "image": "src/assets/spaghetti-carborana.webp"
+  },
+  {
+    "id": 2,
+    "title": "Chicken Tikka Masala",
+    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
+    "image": "src/assets/chicken-masala.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Sushi Platter",
+    "summary": "An assortment of fresh sushi rolls, nigiri, and sashimi.",
+    "image": "src/assets/sushiplatter.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Beef Tacos",
+    "summary": "beef-tacos with shredded-cheese-green salsa verdesauce-fresh lettuce tomato.",
+    "image": "src/assets/beef-tacos.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Vegetable Stir Fry",
+    "summary": "A mix of fresh vegetables stir-fried in a savory sauce, served over rice.",
+    "image": "src/assets/fried-vegetables.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Chocolate Brownies",
+    "summary": "Rich and fudgy chocolate brownies with a crispy top.",
+    "image": "src/assets/chocolate.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Caesar Salad",
+    "summary": "Crisp romaine lettuce tossed with Caesar dressing, croutons, and Parmesan cheese.",
+    "image": "src/assets/salad.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Margherita Pizza",
+    "summary": "Classic pizza topped with fresh tomatoes, mozzarella cheese, and basil.",
+    "image": "src/assets/pizza.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Lemon Garlic Salmon",
+    "summary": "Salmon fillets marinated in lemon juice and garlic, then baked to perfection.",
+    "image": "src/assets/salmon.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Fufu with chicken light soup",
+    "summary": "A traditional Ghanaian dish made with fufu (starchy dough) and a light chicken soup.",
+    "image": "src/assets/fufu.jpg"
+  },
+
+  {
+    "id": 11,
+    "title": "Akple and Okro Soup",
+    "summary": "A traditional Ghanaian dish made with cornmeal (akple) and a savory okro soup.",
+    "image": "src/assets/okro-soup.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Banku and Tilapia",
+    "summary": "A popular Ghanaian dish consisting of fermented corn and cassava dough (banku) served with grilled tilapia.",
+    "image": "src/assets/grilledtilapia.jpg"
+  }
+]
