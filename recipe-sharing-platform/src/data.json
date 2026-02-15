@@ -3,73 +3,201 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "src/assets/spaghetti-carborana.webp"
+    "image": "/images/spaghetti-carborana.webp",
+    "ingredients": [
+      "400g spaghetti",
+      "150g guanciale or pancetta (diced)",
+      "3 large eggs + 1 yolk",
+      "1 cup Pecorino Romano (freshly grated)",
+      "Plenty of black pepper"
+    ],
+    "instructions": "Boil: Cook pasta in salted water until slightly firmer than al dente. Reserve a cup of pasta water. Fry: In a pan, cook guanciale until crispy. Beat eggs and cheese together. Combine: Drain pasta and mix with guanciale. Remove from heat, add egg mixture, and toss quickly to create a creamy sauce. Adjust consistency with reserved pasta water if needed. Serve immediately with extra cheese and pepper."
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-    "image": "src/assets/chicken-masala.jpg"
+    "image": "/images/chicken-masala.jpg",
+    "ingredients": [
+      "500g boneless chicken (cut into pieces)",
+      "1 cup yogurt",
+      "2 tbsp tikka masala spice mix",
+      "1 onion (finely chopped)",
+      "2 cloves garlic (minced)",
+      "1 inch ginger (grated)",
+      "400g canned tomatoes",
+      "1/2 cup heavy cream",
+      "Fresh cilantro (for garnish)"
+    ],
+    "instructions": "Marinate: Combine chicken with yogurt and tikka masala spice mix. Marinate for at least 1 hour. Grill: Cook marinated chicken on a grill or in a hot pan until cooked through. Sauce: In a pan, sauté onions, garlic, and ginger until soft. Add canned tomatoes and simmer until thickened. Stir in heavy cream and add grilled chicken to the sauce. Simmer for a few minutes to combine flavors. Garnish with fresh cilantro and serve with rice or naan."
   },
   {
     "id": 3,
     "title": "Sushi Platter",
     "summary": "An assortment of fresh sushi rolls, nigiri, and sashimi.",
-    "image": "src/assets/sushiplatter.jpg"
+    "image": "/images/sushiplatter.jpg",
+    "ingredients": [
+      "Sushi rice",
+      "Nori sheets",
+      "Fresh fish (salmon, tuna, etc.)",
+      "Vegetables (cucumber, avocado, etc.)",
+      "Soy sauce",
+      "Wasabi",
+      "Pickled ginger"
+    ],
+    "instructions": "Prepare sushi rice according to package instructions. Slice fresh fish and vegetables into thin strips. Place a nori sheet on a bamboo mat, spread sushi rice evenly, and add desired fillings. Roll tightly and slice into pieces. Serve with soy sauce, wasabi, and pickled ginger."
   },
   {
     "id": 4,
     "title": "Beef Tacos",
     "summary": "beef-tacos with shredded-cheese-green salsa verdesauce-fresh lettuce tomato.",
-    "image": "src/assets/beef-tacos.jpg"
+    "image": "/images/beef-tacos.jpg",
+    "ingredients": [
+      "500g ground beef",
+      "1 packet taco seasoning",
+      "8 taco shells",
+      "Shredded lettuce",
+      "Diced tomatoes",
+      "Shredded cheese",
+      "Salsa verde"
+    ],
+    "instructions": "Cook ground beef in a pan until browned. Add taco seasoning and water according to package instructions, simmer until thickened. Warm taco shells in the oven. Fill each shell with cooked beef, then top with shredded lettuce, diced tomatoes, shredded cheese, and salsa verde. Serve immediately."
   },
   {
     "id": 5,
     "title": "Vegetable Stir Fry",
     "summary": "A mix of fresh vegetables stir-fried in a savory sauce, served over rice.",
-    "image": "src/assets/fried-vegetables.jpg"
+    "image": "/images/fried-vegetables.jpg",
+    "ingredients": [
+      "2 cups broccoli florets",
+      "1 red bell pepper (sliced)",
+      "1 carrot (sliced)",
+      "1 cup snap peas",
+      "2 cloves garlic (minced)",
+      "1 tbsp ginger (grated)",
+      "3 tbsp soy sauce",
+      "1 tbsp sesame oil",
+      "Cooked rice (for serving)"
+    ],
+    "instructions": "Heat sesame oil in a wok or large pan. Add garlic and ginger, sauté for 30 seconds. Add broccoli, bell pepper, carrot, and snap peas. Stir-fry for 5-7 minutes until vegetables are tender-crisp. Add soy sauce and toss to coat. Serve hot over cooked rice."
   },
   {
     "id": 6,
     "title": "Chocolate Brownies",
     "summary": "Rich and fudgy chocolate brownies with a crispy top.",
-    "image": "src/assets/chocolate.jpg"
+    "image": "/images/chocolate.jpg",
+    "ingredients": [
+      "1/2 cup unsalted butter",
+      "1 cup granulated sugar",
+      "2 large eggs",
+      "1 tsp vanilla extract",
+      "1/3 cup unsweetened cocoa powder",
+      "1/2 cup all-purpose flour",
+      "1/4 tsp salt",
+      "1/4 tsp baking powder"
+    ],
+    "instructions": "Preheat oven to 175°C (350°F). Melt butter and mix with sugar, eggs, and vanilla. In a separate bowl, combine cocoa, flour, salt, and baking powder. Gradually add dry ingredients to wet ingredients and mix until just combined. Pour batter into a greased 8x8 inch pan. Bake for 20-25 minutes or until a toothpick inserted in the center comes out with a few moist crumbs. Let cool before cutting into squares."
   },
   {
     "id": 7,
     "title": "Caesar Salad",
     "summary": "Crisp romaine lettuce tossed with Caesar dressing, croutons, and Parmesan cheese.",
-    "image": "src/assets/salad.jpg"
+    "image": "/images/salad.jpg",
+    "ingredients": [
+      "1 head romaine lettuce (chopped)",
+      "1/2 cup Caesar dressing",
+      "1 cup croutons",
+      "1/4 cup grated Parmesan cheese",
+      "Freshly ground black pepper"
+    ],
+    
+    "instructions": "In a large bowl, toss chopped romaine lettuce with Caesar dressing until evenly coated. Add croutons and grated Parmesan cheese, and toss gently to combine. Season with freshly ground black pepper to taste. Serve immediately."
   },
   {
     "id": 8,
     "title": "Margherita Pizza",
     "summary": "Classic pizza topped with fresh tomatoes, mozzarella cheese, and basil.",
-    "image": "src/assets/pizza.jpg"
+    "image": "/images/pizza.jpg",
+    "ingredients": [
+      "Pizza dough",
+      "1/2 cup tomato sauce",
+      "200g fresh mozzarella cheese (sliced)",
+      "Fresh basil leaves",
+      "Olive oil",
+      "Salt"
+    ],
+    "instructions": "Preheat oven to 220°C (425°F). Roll out pizza dough on a floured surface. Spread tomato sauce evenly over the dough, leaving a small border around the edges. Arrange sliced mozzarella cheese on top of the sauce. Bake in the preheated oven for 10-12 minutes or until the crust is golden and cheese is bubbly. Remove from oven, top with fresh basil leaves, drizzle with olive oil, and sprinkle with a pinch of salt. Slice and serve hot."
   },
   {
     "id": 9,
     "title": "Lemon Garlic Salmon",
     "summary": "Salmon fillets marinated in lemon juice and garlic, then baked to perfection.",
-    "image": "src/assets/salmon.jpg"
+    "image": "/images/salmon.jpg",
+    "ingredients": [
+      "4 salmon fillets",
+      "2 lemons (juiced)",
+      "3 cloves garlic (minced)",
+      "2 tbsp olive oil",
+      "Salt and pepper to taste",
+      "Fresh parsley (for garnish)"
+    ],
+    "instructions": "Preheat oven to 200°C (400°F). In a small bowl, mix lemon juice, minced garlic, olive oil, salt, and pepper. Place salmon fillets in a baking dish and pour the lemon garlic mixture over them. Bake for 12-15 minutes or until salmon is cooked through and flakes easily with a fork. Garnish with fresh parsley before serving."
   },
   {
     "id": 10,
     "title": "Fufu with chicken light soup",
     "summary": "A traditional Ghanaian dish made with fufu (starchy dough) and a light chicken soup.",
-    "image": "src/assets/fufu.jpg"
+    "image": "/images/fufu.jpg",
+    "ingredients": [
+      "2 cups cassava flour",
+      "1 cup plantain flour",
+      "4 cups water",
+      "500g chicken pieces",
+      "1 onion (chopped)",
+      "2 tomatoes (chopped)",
+      "2 cloves garlic (minced)",
+      "1 inch ginger (grated)",
+      "1 tsp paprika",
+      "Salt and pepper to taste",
+      "Fresh cilantro (for garnish)"
+    ],
+    "instructions": "Fufu: In a large pot, bring water to a boil. Gradually add cassava and plantain flour, stirring continuously until it forms a smooth, dough-like consistency. Remove from heat and set aside. Soup: In another pot, sauté onions, garlic, and ginger until fragrant. Add chicken pieces and cook until browned. Add chopped tomatoes, paprika, salt, and pepper. Pour in enough water to cover the chicken and simmer until the chicken is cooked through and the soup is flavorful. Serve the fufu with the chicken light soup, garnished with fresh cilantro."
   },
-
   {
     "id": 11,
     "title": "Akple and Okro Soup",
     "summary": "A traditional Ghanaian dish made with cornmeal (akple) and a savory okro soup.",
-    "image": "src/assets/okro-soup.jpg"
+    "image": "/images/okro-soup.jpg",
+    "ingredients": [
+      "2 cups cornmeal",
+      "4 cups water",
+      "1/2 cup okra (chopped)",
+      "1 onion (chopped)",
+      "2 tomatoes (chopped)",
+      "2 cloves garlic (minced)",
+      "1 inch ginger (grated)",
+      "1 tsp paprika",
+      "Salt and pepper to taste",
+      "Fresh cilantro (for garnish)"
+    ],
+    "instructions": "Akple: In a large pot, bring water to a boil. Gradually add cornmeal, stirring continuously until it forms a smooth, dough-like consistency. Remove from heat and set aside. Soup: In another pot, sauté onions, garlic, and ginger until fragrant. Add chopped tomatoes, paprika, salt, and pepper. Pour in enough water to create a soup base and bring to a simmer. Add chopped okra and cook until tender. Serve the akple with the okro soup, garnished with fresh cilantro."
   },
   {
     "id": 12,
     "title": "Banku and Tilapia",
     "summary": "A popular Ghanaian dish consisting of fermented corn and cassava dough (banku) served with grilled tilapia.",
-    "image": "src/assets/grilledtilapia.jpg"
+    "image": "/images/grilledtilapia.jpg",
+    "ingredients": [
+      "2 cups cornmeal",
+      "1 cup cassava flour",
+      "4 cups water",
+      "2 whole tilapia (cleaned and scaled)",
+      "1 lemon (juiced)",
+      "2 cloves garlic (minced)",
+      "1 tsp paprika",
+      "Salt and pepper to taste",
+      "Fresh cilantro (for garnish)"
+    ],
+    "instructions": "Banku: In a large pot, bring water to a boil. Gradually add cornmeal and cassava flour, stirring continuously until it forms a smooth, dough-like consistency. Remove from heat and set aside. Tilapia: Marinate tilapia with lemon juice, minced garlic, paprika, salt, and pepper. Grill the tilapia until cooked through and slightly charred. Serve the banku with the grilled tilapia, garnished with fresh cilantro."
   }
 ]
