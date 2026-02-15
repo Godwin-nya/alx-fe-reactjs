@@ -4,20 +4,12 @@ const Header = () => {
   return (
     <header className="bg-gray-900 shadow-md relative text-gray-600 p-4">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-
-        
         {/* Left Navigation */}
         <nav className="space-x-6 hidden md:block">
-          <Link
-            to="/"
-            className="text-gray-400 hover:text-blue-600 transition"
-          >
+          <Link to="/" className="text-gray-400 hover:text-blue-600 transition">
             Home
           </Link>
-          <Link
-            to="/"
-            className="text-gray-400 hover:text-blue-600 transition"
-          >
+          <Link to="/" className="text-gray-400 hover:text-blue-600 transition">
             Recipes
           </Link>
         </nav>
@@ -25,15 +17,13 @@ const Header = () => {
         {/* Right Navigation */}
         <nav className="space-x-6 hidden md:block">
           <Link
-            to="/"
-            className="text-gray-400 hover:text-blue-600 transition"
+            to="/add-recipe"
+            className="text-gray-600 hover:text-blue-600 transition"
           >
-            About
+            Add Recipe
           </Link>
-          <Link
-            to="/"
-            className="text-gray-400 hover:text-blue-600 transition"
-          >
+
+          <Link to="/" className="text-gray-400 hover:text-blue-600 transition">
             Contact
           </Link>
         </nav>
