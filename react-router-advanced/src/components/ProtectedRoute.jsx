@@ -1,9 +1,16 @@
 import { Navigate } from "react-router-dom";
+import { useState, useEffect} from "react";
 
 function ProtectedRoute({ children }) {
-  const isAuth = localStorage.getItem("isAuth") === "true";
+ const [useAuth, setUseAuth] = useState(false);
 
-  if (!isAuth) {
+  useEffect(() => {
+    const auth = localStorage.getItem("isAuth") === "true";
+    setUseAuth(auth);
+  }, []);
+
+
+  if (!useAuth) {
     return <Navigate to="/login" replace />;
   }
 
