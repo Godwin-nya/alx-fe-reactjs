@@ -7,13 +7,7 @@ import Login from "./components/Login";
 import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
-  const [useAuth, setUseAuth] = useState(false);
-
-  useEffect(() => {
-    const auth = localStorage.getItem("isAuth") === "true";
-    setUseAuth(auth);
-  }, []);
-
+ 
   return (
     <>
       <nav>
